@@ -10,7 +10,9 @@ const fetchData = async (searchTerm) => {
     return [];
   }
 
+  console.log(response.data.Search);
   return response.data.Search;
+  
 };
 
 const input = document.querySelector('input');
